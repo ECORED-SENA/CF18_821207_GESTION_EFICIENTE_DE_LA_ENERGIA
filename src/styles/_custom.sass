@@ -2,31 +2,73 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 57%
+    right: 23%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 55%
+    right: 38%
+
 
 @keyframes float1
   0%
     transform: translateY(20px)
+
   100%
     transform: translateY(0px)
-  
-.banner-principal .tarjeta
-  background-position: left 50% !important
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+div.formulas img
+  display: block
+  margin-left: auto
+  margin-right: auto
+  width: auto
 
-.banner-interno__titulo__icono i
-  color: $color-primario
+.tema1
+  .tarjeta-avatar 
+    height: 90%
+    position: relative
+    padding-top: 42px
+    .tarjeta 
+      padding-left: 1.2rem
+      padding-right: 1.2rem
+      p
+        font-weight: bold
+  .tarjeta.tarjeta--custom
+    background-color: #FFFFFF
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 2.0px
 
-figcaption
-  font-weight: normal
+  .tarjeta-avatar-b__img 
+    img
+      width: 80%
+  .tarjeta-avatar-b .tarjeta
+    padding-left: 5%
+    margin-left: -11%
+
+  .color-primario.pasos-custom 
+    display: flex
+    align-items: center
+    .pasos-a__circle 
+      background-color: $color-primario
+      h2
+        color: #FFFFFF
+        
+  .color-secundario.pasos-custom 
+    display: flex
+    align-items: center
+    .pasos-a__circle 
+      background-color: $color-secundario
+    .h2
+      color: #FFFFFF
+  .grande
+    align-items: baseline !important
+    .pasos-a__circle 
+      top: 25px
+
+  .tarjeta-slide__img
+    background-size: 50%
+    background-repeat: no-repeat
+
+.cajon.color-acento-contenido
+  background-color: lighten($color-acento-contenido, 18%)
